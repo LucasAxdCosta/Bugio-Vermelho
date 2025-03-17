@@ -1,3 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    font-family: "Kanit", sans-serif;
+    line-height: 150%;
+    text-align: justify;
+    color: rgb(80, 47, 32);
+}
 body{
     background-image: url(arquivos/bugio_bg.png);
     background-size: cover;
@@ -5,11 +15,42 @@ body{
 #pagina{
     box-sizing: border-box;
     width: 1000px;
-    padding: 24px;
-    background-color: rgb(239, 255, 182);
+    padding: 35px;
+    background-color: rgb(255, 236, 195);
     border-radius: 24px;
-    margin: 50px auto;   
+    margin: 50px auto;
+    font-size: 16px;
+    font-weight: 300;
+    outline: 3px solid rgb(80, 47, 32);
+    outline-offset: -12px;
 }
 img{
+    display: block;
+    margin: auto;
+    width: 930px;
     border-radius: 16px;
+}
+main{
+    box-sizing: border-box;
+    padding: 35px
+}
+h1{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+h2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 400;
+}
+h3{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 350;
+}
+ul{
+    padding-left: 40px;
 }
